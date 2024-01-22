@@ -3,18 +3,55 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+body {
 
+}
 .page.theme_dark {
+    margin: 0;
+    max-width: 1440px;
+    min-width: 375px;
+    background-image: url("../images/cover-image-dark.png");
+    width: 100%;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-    background-image: url("../images/cover-image-dark.png");
-    background-repeat: repeat;
-    min-width: 375px;
-    max-width: 768px;
+
+
+
+}
+.header {
+
+}
+
+.rec_logo__container::after {
+    content: "";
+    background-image: url("../images/Rectangle 77.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    right: 8%;
+
+}
+.rec_logo__container {
+    display: flex;
+    gap: 10px;
+}
+.logo_word {
+    color: #FF0070;
+    font-family: 'IBM Plex mono';
 }
 .logo_word::after{
+    position: relative;
+    margin-left: 10px;
+    bottom: 5%;
     content: "";
-
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 2px #FF0070;
+    background-color: #FF0070;
+    display: inline-block;
 }
