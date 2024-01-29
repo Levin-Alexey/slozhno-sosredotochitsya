@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -39,8 +40,4 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-
-footer {
-  position: relative;
 }
