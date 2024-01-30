@@ -30,6 +30,7 @@
         --header-color: #ffc2e6;
         --bg-image: url(../images/cover-image-light.png);
     }
+
     .header_item::before {
         display: none;
         visibility: hidden;
@@ -39,6 +40,7 @@
         display: none;
         visibility: hidden;
     }
+
     .header__theme-menu-button:hover {
         outline: 1px solid rgba(50, 49, 45, 0.4);
         padding: 0 13px;
